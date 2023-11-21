@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1700568203179,
+    "lastModifiedOn": 1700569461750,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -93,7 +93,7 @@
       {"name":"artist","type":"string"},
       {"name":"album","type":"string"},
       {"name":"track","type":"string"},
-      {"name":"time","type":"string"},
+      {"name":"datetime","type":"string"},
       {"name":"user","type":"string"}
     ],
     "userModified": false
