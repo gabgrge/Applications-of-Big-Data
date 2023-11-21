@@ -20,7 +20,7 @@ for file in files:
     print(f"Extraction of '{file}'")
     
     # Get file path
-    path = os.path.join(folder_path, file[1:])
+    path = os.path.join(raw_data_path, file[1:])
     
     try:
         # Read user listening history
