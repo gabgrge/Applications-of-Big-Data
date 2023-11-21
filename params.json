@@ -135,7 +135,8 @@
     "dkuProperties": []
   },
   "name": "Applications of Big Data",
-  "projectStatus": "Sandbox",
+  "projectStatus": "Draft",
+  "imgPattern": 1,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -191,6 +192,14 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 11,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1700573034465,
+    "extendedProperties": {}
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -205,34 +214,20 @@
   "checklists": {
     "checklists": [
       {
-        "title": "Your new project\u0027s Todo",
+        "title": "To do",
         "createdOn": 0,
         "items": [
           {
-            "done": true,
-            "text": "Create the project",
+            "done": false,
+            "text": "Check for multi-artists tracks",
             "createdOn": 1700559493144,
             "createdBy": "admin",
             "stateChangedOn": 0
           },
           {
             "done": false,
-            "text": "Set a project image (click on the color next to the project title)",
-            "createdOn": 1700559493144,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Import your [first dataset](projects/APPLICATIONSOFBIGDATA/datasets/new/)",
-            "createdOn": 1700559493144,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Organize your work by replacing this with a real todo",
-            "createdOn": 1700559493144,
+            "text": "Connect to a SQL Database",
+            "createdOn": 1700573034337,
             "createdBy": "admin",
             "stateChangedOn": 0
           }
