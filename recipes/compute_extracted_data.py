@@ -24,7 +24,7 @@ for file in files:
     
     try:
         # Read user listening history
-        df = pd.read_csv(path, header=None, names=["artist", "album", "track", "time"])
+        df = pd.read_csv(path, header=None, names=["artist", "album", "track", "datetime"])
         
         # Get user name
         username = file[1:].split(".")[0]
