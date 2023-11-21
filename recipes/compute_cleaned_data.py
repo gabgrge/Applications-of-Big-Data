@@ -41,12 +41,6 @@ extracted_data_df.loc[mask, cols_to_reset] = np.nan
 # ## Clean "artist"
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-extracted_data_df.artist.value_counts().head(10)
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-extracted_data_df[extracted_data_df["artist"] == "<Unknown>"]
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Set a boolean column to indicate if "artist" is known or not
 extracted_data_df["is_artist_unknown"] = extracted_data_df["artist"].apply(is_artist_unknown)
 # Remove unknown artists from "artist"
