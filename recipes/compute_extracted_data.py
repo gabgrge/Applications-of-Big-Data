@@ -2,17 +2,39 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import os
+
 
 # Read recipe inputs
 raw_data = dataiku.Folder("GRPMFszm")
-raw_data_info = raw_data.get_info()
+raw_data_path = raw_data.get_path()
+files = raw_data.list_paths_in_partition()
 
 
 # Compute recipe outputs
-# TODO: Write here your actual code that computes the outputs
-# NB: DSS supports several kinds of APIs for reading and writing data. Please see doc.
+# Define the resulting DataFrame
+extracted_data_df = pd.DataFrame()
 
-extracted_data_df = ... # Compute a Pandas dataframe to write into extracted_data
+# Cycle through folder paths
+for file in files:
+    print(f"Extraction of '{file}'")
+    
+    # Get file path
+    path = os.path.join(folder_path, file[1:])
+    
+    try:
+        # Read user listening history
+        df = pd.read_csv(path, header=None, names=["artist", "album", "track", "time"])
+        
+        # Get user name
+        username = file[1:].split(".")[0]
+        df["user"] = username
+        
+        # Concatenate listening histories
+        dfs = pd.concat([dfs, df])
+
+    except Exception as e:
+        print(e)
 
 
 # Write recipe outputs
