@@ -31,7 +31,7 @@ for file in files:
         df["user"] = username
         
         # Concatenate listening histories
-        dfs = pd.concat([dfs, df])
+        extracted_data_df = pd.concat([extracted_data_df, df])
 
     except Exception as e:
         print(e)
