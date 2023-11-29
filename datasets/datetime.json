@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701263530960,
+    "lastModifiedOn": 1701263717542,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,8 +62,16 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"datetime","type":"date"},
+      {"name":"date","type":"string"},
+      {"name":"time","type":"string"},
+      {"name":"year","type":"double"},
+      {"name":"month","type":"double"},
+      {"name":"week","type":"double"},
+      {"name":"day","type":"double"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
