@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701256061326,
+    "lastModifiedOn": 1701263650239,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -91,7 +91,7 @@
   "schema": {
     "columns": [
       {"name":"index","type":"bigint"},
-      {"name":"user","type":"string"},
+      {"name":"usr","type":"string"},
       {"name":"artist","type":"string"},
       {"name":"is_artist_unknown","type":"string"},
       {"name":"album","type":"string"},
