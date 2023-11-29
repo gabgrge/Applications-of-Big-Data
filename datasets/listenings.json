@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701256517814,
+    "lastModifiedOn": 1701257271108,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -64,15 +64,15 @@
   },
   "schema": {
     "columns": [
-      {"name":"index","type":"bigint","originalType":"bigserial"},
-      {"name":"usr","type":"string","originalType":"text"},
-      {"name":"artist","type":"string","originalType":"text"},
-      {"name":"is_artist_unknown","type":"boolean","originalType":"bool"},
-      {"name":"album","type":"string","originalType":"text"},
-      {"name":"track","type":"string","originalType":"text"},
-      {"name":"datetime","type":"date","originalType":"timestamp","timestampNoTzAsDate":true}
+      {"name":"index","type":"bigint"},
+      {"name":"user","type":"string"},
+      {"name":"artist","type":"string"},
+      {"name":"is_artist_unknown","type":"string"},
+      {"name":"album","type":"string"},
+      {"name":"track","type":"string"},
+      {"name":"datetime","type":"date"}
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
