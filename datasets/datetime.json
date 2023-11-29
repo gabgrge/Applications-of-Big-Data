@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701263717542,
+    "lastModifiedOn": 1701263853698,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -51,8 +51,8 @@
     "notReadyIfEmpty": false,
     "mode": "table",
     "partitioningType": "custom",
-    "normalizeDoubles": true,
-    "table": "${projectKey}_datetime",
+    "normalizeDoubles": false,
+    "table": "datetime",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
@@ -71,7 +71,7 @@
       {"name":"week","type":"double"},
       {"name":"day","type":"double"}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
