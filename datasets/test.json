@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701263156290,
+    "lastModifiedOn": 1701263224496,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -71,7 +71,7 @@
       {"name":"week","type":"double"},
       {"name":"day","type":"double"}
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
