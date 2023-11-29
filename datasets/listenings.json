@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701263433826,
+    "lastModifiedOn": 1701263485440,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -51,8 +51,8 @@
     "notReadyIfEmpty": false,
     "mode": "table",
     "partitioningType": "custom",
-    "normalizeDoubles": true,
-    "table": "${projectKey}_listenings",
+    "normalizeDoubles": false,
+    "table": "listenings",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
