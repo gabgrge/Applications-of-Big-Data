@@ -18,5 +18,5 @@ datetime_df["day"] = datetime_df["datetime"].dt.day
 
 
 # Write recipe outputs
-test = dataiku.Dataset("test")
-test.write_with_schema(datetime_df)
+datetime = dataiku.Dataset("datetime")
+datetime.write_with_schema(datetime_df)
