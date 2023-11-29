@@ -28,7 +28,7 @@ for file in files:
         
         # Get user name
         username = file[1:].split(".")[0]
-        df["user"] = username
+        df["usr"] = username
         
         # Concatenate listening histories
         extracted_data_df = pd.concat([extracted_data_df, df])
