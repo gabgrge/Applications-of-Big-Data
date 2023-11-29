@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701263485440,
+    "lastModifiedOn": 1701263715519,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,8 +62,16 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"index","type":"bigint"},
+      {"name":"usr","type":"string"},
+      {"name":"artist","type":"string"},
+      {"name":"is_artist_unknown","type":"string"},
+      {"name":"album","type":"string"},
+      {"name":"track","type":"string"},
+      {"name":"datetime","type":"date"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
