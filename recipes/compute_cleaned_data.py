@@ -25,13 +25,13 @@ extracted_data_df["is_artist_unknown"] = extracted_data_df["artist"].apply(is_ar
 extracted_data_df.loc[extracted_data_df["artist"] == "<Unknown>", "artist"] = np.nan
 
 # Sort rows
-extracted_data_df.sort_values(by=["user", "datetime"], ascending=[True, False], ignore_index=True, inplace=True)
+extracted_data_df.sort_values(by=["usr", "datetime"], ascending=[True, False], ignore_index=True, inplace=True)
 
 # Add index column
 extracted_data_df = extracted_data_df.reset_index()
 
 # Order columns
-order = ["index", "user", "artist", "is_artist_unknown", "album", "track", "datetime"]
+order = ["index", "usr", "artist", "is_artist_unknown", "album", "track", "datetime"]
 extracted_data_df = extracted_data_df[order]
 
 
