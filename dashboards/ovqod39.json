@@ -81,6 +81,83 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 3,
+              "left": 0,
+              "width": 5,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "filters": [
+                {
+                  "filterType": "ALPHANUM_FACET",
+                  "filterSelectionType": "SINGLE_SELECT",
+                  "id": "1701379723851_6",
+                  "column": "year",
+                  "columnType": "NUMERICAL",
+                  "isA": "filter",
+                  "selectedValues": {
+                    "2006": true
+                  },
+                  "isAGlobalFilter": true,
+                  "excludeOtherValues": true,
+                  "allValuesInSample": true,
+                  "active": true,
+                  "explicitExclude": false
+                },
+                {
+                  "filterType": "ALPHANUM_FACET",
+                  "filterSelectionType": "SINGLE_SELECT",
+                  "id": "1701379723851_7",
+                  "column": "week",
+                  "columnType": "NUMERICAL",
+                  "isA": "filter",
+                  "selectedValues": {
+                    "17": true
+                  },
+                  "isAGlobalFilter": true,
+                  "excludeOtherValues": true,
+                  "allValuesInSample": true,
+                  "active": true,
+                  "explicitExclude": false
+                }
+              ],
+              "engineType": "LINO",
+              "refreshableSelection": {
+                "selection": {
+                  "useMemTable": false,
+                  "filter": {
+                    "distinct": false,
+                    "enabled": false
+                  },
+                  "partitionSelectionMethod": "ALL",
+                  "latestPartitionsN": 1,
+                  "ordering": {
+                    "enabled": false,
+                    "rules": []
+                  },
+                  "samplingMethod": "HEAD_SEQUENTIAL",
+                  "maxRecords": 10000,
+                  "targetRatio": 0.02,
+                  "ascending": true,
+                  "withinFirstN": -1,
+                  "maxReadUncompressedBytes": -1
+                },
+                "autoRefreshSample": false,
+                "_refreshTrigger": 0
+              }
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "title": "Week Filter",
+            "insightId": "5BDx4Ea",
+            "insightType": "filters",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -93,11 +170,11 @@
   "name": "KPI Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379693375,
+    "lastModifiedOn": 1701379896917,
     "extendedProperties": {}
   },
   "creationTag": {
