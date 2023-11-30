@@ -53,6 +53,10 @@
     {
       "objectId": "biggest_listeners_all_time",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_biggest_listeners_all_time",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
