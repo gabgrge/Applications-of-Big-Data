@@ -193,11 +193,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701263576233,
+    "lastModifiedOn": 1701330529462,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -225,7 +225,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Connect to a SQL Database",
             "createdOn": 1700573034337,
             "createdBy": "admin",
