@@ -29,14 +29,73 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Chart",
-      "userEditedName": false,
+      "name": "Biggest Listeners of the week",
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
-      "genericDimension0": [],
+      "genericDimension0": [
+        {
+          "column": "listener",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "forceLastPositionOthers": false,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true,
+              "$$hashKey": "object:768"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of listenings, descending",
+              "$$hashKey": "object:767"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of listenings, ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:769"
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Average of listenings, descending",
+            "$$hashKey": "object:767"
+          },
+          "digitGrouping": "DEFAULT"
+        }
+      ],
       "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
-      "genericMeasures": [],
+      "genericMeasures": [
+        {
+          "column": "listenings",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "colorRules": []
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -80,9 +139,11 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "Listener",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -105,6 +166,7 @@
       "yAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "Number of tracks listened",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -113,7 +175,7 @@
         "axisValuesFormatting": {
           "numberFormatting": {
             "multiplier": "Auto",
-            "digitGrouping": "DEFAULT",
+            "digitGrouping": "SI",
             "prefix": "",
             "suffix": ""
           },
@@ -182,7 +244,7 @@
       "animationRepeat": true,
       "colorOptions": {
         "singleColor": "#2678B1",
-        "transparency": 0.75,
+        "transparency": 0.8,
         "colorPalette": "default",
         "ccScaleMode": "NORMAL",
         "customPalette": {
@@ -196,7 +258,9 @@
         "quantizationMode": "NONE",
         "numQuantizeSteps": 5,
         "paletteMiddleValue": 0.0,
-        "customColors": {},
+        "customColors": {
+          "m_listenings_AVG_1": "#2ca02c"
+        },
         "heatDensityMapIntensity": 0.5,
         "heatDensityMapRadius": 0.5
       },
@@ -204,6 +268,7 @@
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -295,14 +360,14 @@
   },
   "owner": "admin",
   "listed": false,
-  "name": "Chart on biggest_listeners_week",
+  "name": "Biggest Listeners of the week on biggest_listeners_week",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379492663,
+    "lastModifiedOn": 1701379613462,
     "extendedProperties": {}
   },
   "creationTag": {
