@@ -1,4 +1,4 @@
--- Ranking
+-- Ranking of 10 Most Diversified Listeners All Time
 SELECT
     usr,
     COUNT(DISTINCT artist) AS unique_artists_count
