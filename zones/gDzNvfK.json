@@ -21,6 +21,10 @@
     {
       "objectId": "kpi",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_kpi",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
