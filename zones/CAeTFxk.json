@@ -77,6 +77,10 @@
     {
       "objectId": "most_diversified_listeners_all_time",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_most_diversified_listeners_all_time",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
