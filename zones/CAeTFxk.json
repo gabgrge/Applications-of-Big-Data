@@ -17,6 +17,10 @@
     {
       "objectId": "listened_tracks_by_user",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "most_listened_track_all_time",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
