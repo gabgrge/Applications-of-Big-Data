@@ -138,6 +138,7 @@
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "Listener",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -160,6 +161,7 @@
       "yAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "Number of tracks listened",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -167,8 +169,8 @@
         },
         "axisValuesFormatting": {
           "numberFormatting": {
-            "multiplier": "Auto",
-            "digitGrouping": "DEFAULT",
+            "multiplier": "Thousands",
+            "digitGrouping": "SI",
             "prefix": "",
             "suffix": ""
           },
@@ -312,7 +314,7 @@
         }
       },
       "useLiveProcessingIfAvailable": true,
-      "legendPlacement": "OUTER_RIGHT",
+      "legendPlacement": "SIDEBAR",
       "legendFormatting": {
         "fontSize": 11,
         "fontColor": "#333",
@@ -356,11 +358,11 @@
   "name": "Biggest Listeners of All Time on biggest_listeners_all_time",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379089896,
+    "lastModifiedOn": 1701379196103,
     "extendedProperties": {}
   },
   "creationTag": {
