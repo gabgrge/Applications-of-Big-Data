@@ -1,9 +1,19 @@
 -- Ranking of 10 Biggest Listeners for Each Week
+WITH ranked_listeners AS (
+    SELECT
+        EXTRACT(YEAR FROM datetime) AS year,
+        EXTRACT(WEEK FROM datetime) AS week,
+        usr as listener,
+        COUNT(*) AS listenings,
+        ROW_NUMBER() OVER (PARTITION BY EXTRACT(YEAR FROM datetime), EXTRACT(WEEK FROM datetime) ORDER BY COUNT(*) DESC) AS listener_rank
+    FROM listenings
+    GROUP BY year, week, listener
+)
 SELECT
-    'top_10_listeners_weekly' AS kpi_name,
-    COUNT(*) AS result_value
-FROM listenings
-WHERE EXTRACT(WEEK FROM datetime) = EXTRACT(WEEK FROM CURRENT_DATE)
-GROUP BY usr
-ORDER BY result_value DESC
-LIMIT 10;
+    year,
+    week,
+    listener,
+    listenings
+FROM ranked_listeners
+WHERE listener_rank = 1
+ORDER BY year, week, listenings DESC;
