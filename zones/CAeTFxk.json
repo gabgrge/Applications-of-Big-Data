@@ -45,6 +45,10 @@
     {
       "objectId": "most_listened_albums_week",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_most_listened_albums_week",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
