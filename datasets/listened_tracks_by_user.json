@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701360854909,
+    "lastModifiedOn": 1701360884448,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -65,7 +65,7 @@
     "columns": [
       {"name":"usr","type":"string","originalType":"text"},
       {"name":"artist","type":"string","originalType":"text"},
-      {"name":"listened_track","type":"bigint","originalType":"int8"}
+      {"name":"listened_tracks","type":"bigint","originalType":"int8"}
     ],
     "userModified": true
   },
