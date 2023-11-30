@@ -49,29 +49,28 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:768"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of listenings, descending",
-              "$$hashKey": "object:767"
+              "label": "Average of listenings, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Average of listenings, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:769"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Average of listenings, descending",
-            "$$hashKey": "object:767"
+            "label": "Average of listenings, descending"
           },
+          "prefix": "",
+          "suffix": "",
+          "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
       ],
@@ -91,6 +90,8 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "prefix": "",
+          "suffix": "",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "colorRules": []
@@ -139,7 +140,40 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
-      "filters": [],
+      "filters": [
+        {
+          "filterType": "ALPHANUM_FACET",
+          "filterSelectionType": "SINGLE_SELECT",
+          "id": "1701379932403_25",
+          "column": "year",
+          "columnType": "NUMERICAL",
+          "isA": "filter",
+          "selectedValues": {
+            "2021": true
+          },
+          "isAGlobalFilter": false,
+          "excludeOtherValues": true,
+          "allValuesInSample": true,
+          "active": true,
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "filterSelectionType": "SINGLE_SELECT",
+          "id": "1701379942676_26",
+          "column": "week",
+          "columnType": "NUMERICAL",
+          "isA": "filter",
+          "selectedValues": {
+            "29": true
+          },
+          "isAGlobalFilter": false,
+          "excludeOtherValues": true,
+          "allValuesInSample": true,
+          "active": true,
+          "explicitExclude": false
+        }
+      ],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -363,11 +397,11 @@
   "name": "Biggest Listeners of the Week on biggest_listeners_week",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379637217,
+    "lastModifiedOn": 1701379980188,
     "extendedProperties": {}
   },
   "creationTag": {
