@@ -1,7 +1,24 @@
 {
   "name": "KPI Computation",
   "color": "#F9BE40",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_kpi",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_listened_tracks_by_user",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "kpi",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "listened_tracks_by_user",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},

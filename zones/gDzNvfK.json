@@ -17,22 +17,6 @@
     {
       "objectId": "datetime",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "kpi",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_kpi",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "listened_tracks_by_user",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_listened_tracks_by_user",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
