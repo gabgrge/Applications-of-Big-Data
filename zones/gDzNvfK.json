@@ -17,6 +17,10 @@
     {
       "objectId": "datetime",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "kpi",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
