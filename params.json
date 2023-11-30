@@ -26,7 +26,20 @@
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "admin",
+              "accessToken": "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",
+              "repository": "gabgrge/test"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
@@ -193,11 +206,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701330529462,
+    "lastModifiedOn": 1701330888209,
     "extendedProperties": {}
   },
   "creationTag": {
