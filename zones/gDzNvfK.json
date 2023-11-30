@@ -1,7 +1,16 @@
 {
   "name": "Database Filling",
   "color": "#4B8021",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_listenings_table",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "listenings",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
