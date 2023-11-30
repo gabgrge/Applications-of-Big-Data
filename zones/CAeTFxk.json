@@ -25,6 +25,10 @@
     {
       "objectId": "compute_most_listened_track_all_time",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "most_listened_album_all_time",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
