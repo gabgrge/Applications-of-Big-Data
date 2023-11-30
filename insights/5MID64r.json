@@ -27,16 +27,32 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "kpi",
       "variant": "normal",
-      "name": "Chart",
+      "name": "Count distinct of track",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [],
       "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
-      "genericMeasures": [],
+      "genericMeasures": [
+        {
+          "column": "track",
+          "function": "COUNTD",
+          "type": "ALPHANUM",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "digitGrouping": "DEFAULT",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "colorRules": []
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -80,6 +96,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -204,6 +221,7 @@
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -295,14 +313,14 @@
   },
   "owner": "admin",
   "listed": false,
-  "name": "Chart on listenings",
+  "name": "Count distinct of track on listenings",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701354893712,
+    "lastModifiedOn": 1701355131566,
     "extendedProperties": {}
   },
   "creationTag": {
