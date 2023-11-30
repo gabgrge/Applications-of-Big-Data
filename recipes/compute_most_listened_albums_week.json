@@ -32,7 +32,7 @@
     "main": {
       "items": [
         {
-          "ref": "most_listened_albums_week",
+          "ref": "most_listened_album_week",
           "appendMode": false
         }
       ]
@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701375279588,
+    "lastModifiedOn": 1701375428059,
     "extendedProperties": {}
   },
   "creationTag": {
