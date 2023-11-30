@@ -61,6 +61,10 @@
     {
       "objectId": "most_listened_artist_all_time",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_most_listened_artist_all_time",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
