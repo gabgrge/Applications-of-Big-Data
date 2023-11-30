@@ -8,11 +8,11 @@
   "name": "Filters on biggest_listeners_week",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379896961,
+    "lastModifiedOn": 1701380115840,
     "extendedProperties": {}
   },
   "creationTag": {
