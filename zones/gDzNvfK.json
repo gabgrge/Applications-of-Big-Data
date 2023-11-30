@@ -9,14 +9,6 @@
     {
       "objectId": "listenings",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_datetime_table",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "datetime",
-      "objectType": "DATASET"
     }
   ],
   "shared": [],
