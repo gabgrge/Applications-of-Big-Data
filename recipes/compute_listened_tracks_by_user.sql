@@ -5,3 +5,4 @@ SELECT
     COUNT(*) AS listened_tracks
 FROM listenings
 GROUP BY usr, artist
+ORDER BY usr, listened_tracks
