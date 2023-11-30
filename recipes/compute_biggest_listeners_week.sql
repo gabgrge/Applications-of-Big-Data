@@ -15,5 +15,5 @@ SELECT
     listener,
     listenings
 FROM ranked_listeners
-WHERE listener_rank = 1
+WHERE listener_rank <= 10
 ORDER BY year, week, listenings DESC;
