@@ -59,10 +59,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 10,
-              "width": 2,
-              "height": 2
+              "top": 3,
+              "left": 5,
+              "width": 5,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -76,6 +76,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Biggest Listeners of the Week",
             "insightId": "p8NiIqE",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -92,11 +93,11 @@
   "name": "KPI Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379492726,
+    "lastModifiedOn": 1701379693375,
     "extendedProperties": {}
   },
   "creationTag": {
