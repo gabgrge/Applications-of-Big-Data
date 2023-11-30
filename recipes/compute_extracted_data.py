@@ -2,10 +2,12 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import os
 
 
 # Read recipe inputs
-raw_data = dataiku.Folder("BQumXWTl")
+raw_data = dataiku.Folder("GRPMFszm")
+raw_data_path = raw_data.get_path()
 files = raw_data.list_paths_in_partition()
 
 
@@ -13,22 +15,24 @@ files = raw_data.list_paths_in_partition()
 # Define the resulting DataFrame
 extracted_data_df = pd.DataFrame()
 
-# Cycle through folder files
+# Cycle through folder paths
 for file in files:
     print(f"Extraction of '{file}'")
     
+    # Get file path
+    path = os.path.join(raw_data_path, file[1:])
+    
     try:
         # Read user listening history
-        with raw_data.get_download_stream(file) as f:
-            df = pd.read_csv(f, header=None, names=["artist", "album", "track", "datetime"])
-
+        df = pd.read_csv(path, header=None, names=["artist", "album", "track", "datetime"])
+        
         # Get user name
         username = file[1:].split(".")[0]
         df["usr"] = username
-
+        
         # Concatenate listening histories
         extracted_data_df = pd.concat([extracted_data_df, df])
-        
+
     except Exception as e:
         print(e)
 
