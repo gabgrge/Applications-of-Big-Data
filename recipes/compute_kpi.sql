@@ -1,5 +1,5 @@
 -- Create the kpi_results table
-CREATE TABLE IF NOT EXISTS kpi_results (
+CREATE TABLE kpi_results (
     kpi_name TEXT,
     result_value DECIMAL
 );
@@ -50,4 +50,5 @@ LIMIT 10;
 SELECT *
 FROM kpi_results;
 
+-- Drop temporary table
 DROP TABLE kpi_results;
