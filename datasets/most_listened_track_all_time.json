@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701362339233,
+    "lastModifiedOn": 1701362352471,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,7 +62,10 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"most_listened_track_all_time","type":"string","originalType":"text"},
+      {"name":"listenings","type":"bigint","originalType":"int8"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
