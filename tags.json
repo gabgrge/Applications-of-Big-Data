@@ -1,5 +1,7 @@
 {
   "tags": {
-    "recipe-editor": {}
+    "recipe-editor": {
+      "color": "#1ac2ab"
+    }
   }
 }
