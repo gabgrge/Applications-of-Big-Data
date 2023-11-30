@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701377324238,
+    "lastModifiedOn": 1701377458767,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,7 +62,10 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"listener","type":"string","originalType":"text"},
+      {"name":"listened_artists","type":"bigint","originalType":"int8"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
