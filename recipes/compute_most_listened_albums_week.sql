@@ -8,6 +8,7 @@ WITH ranked_albums AS (
         COUNT(*) AS listenings,
         ROW_NUMBER() OVER (PARTITION BY EXTRACT(YEAR FROM datetime), EXTRACT(WEEK FROM datetime) ORDER BY COUNT(*) DESC) AS album_rank
     FROM listenings
+    WHERE album IS NOT NULL
     GROUP BY year, week, album, artist
 )
 SELECT
