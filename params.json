@@ -33,7 +33,7 @@
             "type": "github",
             "configuration": {
               "useProxy": true,
-              "username": "",
+              "username": "gabgrge",
               "accessToken": "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",
               "repository": "gabgrge/test"
             }
@@ -206,11 +206,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701331024431,
+    "lastModifiedOn": 1701331049944,
     "extendedProperties": {}
   },
   "creationTag": {
