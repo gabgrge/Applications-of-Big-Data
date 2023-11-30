@@ -1,5 +1,5 @@
 -- Create the kpi_results table
-CREATE TABLE kpi_results (
+CREATE TABLE IF NOT EXISTS kpi_results (
     kpi_name TEXT,
     result_value DECIMAL
 );
@@ -48,4 +48,6 @@ LIMIT 10;
 
 -- Return all KPIs
 SELECT *
-FROM kpi_results
+FROM kpi_results;
+
+DROP TABLE kpi_results;
