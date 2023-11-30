@@ -140,40 +140,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
-      "filters": [
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "SINGLE_SELECT",
-          "id": "1701379932403_25",
-          "column": "year",
-          "columnType": "NUMERICAL",
-          "isA": "filter",
-          "selectedValues": {
-            "2021": true
-          },
-          "isAGlobalFilter": false,
-          "excludeOtherValues": true,
-          "allValuesInSample": true,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "SINGLE_SELECT",
-          "id": "1701379942676_26",
-          "column": "week",
-          "columnType": "NUMERICAL",
-          "isA": "filter",
-          "selectedValues": {
-            "29": true
-          },
-          "isAGlobalFilter": false,
-          "excludeOtherValues": true,
-          "allValuesInSample": true,
-          "active": true,
-          "explicitExclude": false
-        }
-      ],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -397,11 +364,11 @@
   "name": "Biggest Listeners of the Week on biggest_listeners_week",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379980188,
+    "lastModifiedOn": 1701380045620,
     "extendedProperties": {}
   },
   "creationTag": {
