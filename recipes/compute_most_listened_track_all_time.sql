@@ -1,8 +1,9 @@
 -- Most Listened Track All Time
 SELECT
-    track AS most_listened_track_all_time,
+    track,
+    artist,
     COUNT(*) AS listenings
 FROM listenings
-GROUP BY track
+GROUP BY track, artist
 ORDER BY listenings DESC
 LIMIT 1;
