@@ -1,5 +1,4 @@
 -- Most Listened Albums for Each Week
-
 WITH ranked_albums AS (
     SELECT
         EXTRACT(YEAR FROM datetime) AS year,
