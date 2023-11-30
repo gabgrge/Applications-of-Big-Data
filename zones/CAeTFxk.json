@@ -61,6 +61,10 @@
     {
       "objectId": "biggest_listeners_week",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_biggest_listeners_week",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
