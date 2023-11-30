@@ -1,4 +1,4 @@
--- Most Listened Albums for Each Week
+-- Most Listened Album for Each Week
 WITH ranked_albums AS (
     SELECT
         EXTRACT(YEAR FROM datetime) AS year,
@@ -18,5 +18,5 @@ SELECT
     artist,
     listenings
 FROM ranked_albums
-WHERE album_rank <= 10
+WHERE album_rank == 1
 ORDER BY year, week, listenings DESC;
