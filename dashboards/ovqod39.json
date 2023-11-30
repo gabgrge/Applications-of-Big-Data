@@ -50,6 +50,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Biggest Listeners of All Time",
             "insightId": "13ZKt5E",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -66,11 +67,11 @@
   "name": "KPI Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379269398,
+    "lastModifiedOn": 1701379349693,
     "extendedProperties": {}
   },
   "creationTag": {
