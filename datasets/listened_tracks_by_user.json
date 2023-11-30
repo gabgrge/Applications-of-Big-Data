@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701360741034,
+    "lastModifiedOn": 1701360837131,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,7 +62,11 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"usr","type":"string","originalType":"text"},
+      {"name":"artist","type":"string","originalType":"text"},
+      {"name":"listened_track","type":"bigint","originalType":"int8"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
