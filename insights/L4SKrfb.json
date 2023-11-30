@@ -142,7 +142,26 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
-      "filters": [],
+      "filters": [
+        {
+          "filterType": "EXPLICIT",
+          "id": "1701378484770_11",
+          "column": "NOT listener: apatel158",
+          "isA": "filter",
+          "isAGlobalFilter": false,
+          "excludeOtherValues": false,
+          "allValuesInSample": false,
+          "active": true,
+          "explicitExclude": true,
+          "explicitConditions": [
+            {
+              "column": "listener",
+              "columnType": "ALPHANUM",
+              "singleValue": "apatel158"
+            }
+          ]
+        }
+      ],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -261,7 +280,9 @@
         "quantizationMode": "NONE",
         "numQuantizeSteps": 5,
         "paletteMiddleValue": 0.0,
-        "customColors": {},
+        "customColors": {
+          "m_listened_artists_AVG_1": "#2ca02c"
+        },
         "heatDensityMapIntensity": 0.5,
         "heatDensityMapRadius": 0.5
       },
@@ -364,11 +385,11 @@
   "name": "Avg of listened_artists by listener on most_diversified_listeners_all_time",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701378469787,
+    "lastModifiedOn": 1701378496709,
     "extendedProperties": {}
   },
   "creationTag": {
