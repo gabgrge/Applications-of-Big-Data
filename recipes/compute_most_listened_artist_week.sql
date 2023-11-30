@@ -1,22 +1,20 @@
 -- Most Listened Artist for Each Week
-WITH ranked_albums AS (
+WITH ranked_artists AS (
     SELECT
         EXTRACT(YEAR FROM datetime) AS year,
         EXTRACT(WEEK FROM datetime) AS week,
-        album,
         artist,
         COUNT(*) AS listenings,
-        ROW_NUMBER() OVER (PARTITION BY EXTRACT(YEAR FROM datetime), EXTRACT(WEEK FROM datetime) ORDER BY COUNT(*) DESC) AS album_rank
+        ROW_NUMBER() OVER (PARTITION BY EXTRACT(YEAR FROM datetime), EXTRACT(WEEK FROM datetime) ORDER BY COUNT(*) DESC) AS artist_rank
     FROM listenings
-    WHERE album IS NOT NULL
-    GROUP BY year, week, album, artist
+    WHERE artist IS NOT NULL
+    GROUP BY year, week, artist
 )
 SELECT
     year,
     week,
-    album,
     artist,
     listenings
-FROM ranked_albums
-WHERE album_rank = 1
+FROM ranked_artists
+WHERE artist_rank = 1
 ORDER BY year, week, listenings DESC;
