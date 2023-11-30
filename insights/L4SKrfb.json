@@ -29,8 +29,8 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Avg of listened_artists by listener",
-      "userEditedName": false,
+      "name": "Most Diversified Listeners All Time",
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
@@ -382,14 +382,14 @@
   },
   "owner": "admin",
   "listed": false,
-  "name": "Avg of listened_artists by listener on most_diversified_listeners_all_time",
+  "name": "Most Diversified Listeners All Time on most_diversified_listeners_all_time",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701378496709,
+    "lastModifiedOn": 1701379230963,
     "extendedProperties": {}
   },
   "creationTag": {
