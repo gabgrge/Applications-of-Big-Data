@@ -161,7 +161,8 @@
           }
         ]
       },
-      "showTitle": false,
+      "title": "Listeners",
+      "showTitle": true,
       "backgroundColor": ""
     }
   ],
@@ -170,11 +171,11 @@
   "name": "KPI Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379896917,
+    "lastModifiedOn": 1701380115776,
     "extendedProperties": {}
   },
   "creationTag": {
