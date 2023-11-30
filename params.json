@@ -27,20 +27,7 @@
     "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": [
-        {
-          "active": true,
-          "hook": {
-            "type": "github",
-            "configuration": {
-              "useProxy": true,
-              "username": "",
-              "accessToken": "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",
-              "repository": "gabgrge/test"
-            }
-          }
-        }
-      ]
+      "integrations": []
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
@@ -207,11 +194,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701333466770,
+    "lastModifiedOn": 1701333854290,
     "extendedProperties": {}
   },
   "creationTag": {
