@@ -49,29 +49,28 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:64602"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Number of artists listened, descending",
-              "$$hashKey": "object:64603"
+              "label": "Number of artists listened, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Number of artists listened, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:64604"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Number of artists listened, descending",
-            "$$hashKey": "object:64603"
+            "label": "Number of artists listened, descending"
           },
+          "prefix": "",
+          "suffix": "",
+          "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
           "displayLabel": "Listener"
         }
@@ -92,6 +91,8 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "SI",
+          "prefix": "",
+          "suffix": "",
           "displayLabel": "Number of artists listened",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
@@ -202,7 +203,7 @@
       "smoothing": true,
       "showLegend": true,
       "showXAxis": false,
-      "showInChartValues": false,
+      "showInChartValues": true,
       "showInChartTotalValues": true,
       "showInChartLabels": true,
       "strokeWidth": 2,
@@ -217,7 +218,7 @@
       "hexbinNumber": 20,
       "hexbinRadiusMode": "NUM_HEXAGONS",
       "valuesInChartDisplayOptions": {
-        "overlappingStrategy": "AUTO",
+        "overlappingStrategy": "ALL",
         "textFormatting": {
           "fontSize": 11,
           "fontColor": "AUTO",
@@ -246,7 +247,7 @@
       "animationRepeat": true,
       "colorOptions": {
         "singleColor": "#2678B1",
-        "transparency": 0.75,
+        "transparency": 0.7,
         "colorPalette": "default",
         "ccScaleMode": "NORMAL",
         "customPalette": {
@@ -363,11 +364,11 @@
   "name": "Avg of listened_artists by listener on most_diversified_listeners_all_time",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701378245484,
+    "lastModifiedOn": 1701378469787,
     "extendedProperties": {}
   },
   "creationTag": {
