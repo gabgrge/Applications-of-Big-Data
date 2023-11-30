@@ -18,5 +18,5 @@ SELECT
     artist,
     listenings
 FROM ranked_tracks
-WHERE track_rank <= 10
+WHERE track_rank = 1
 ORDER BY year, week, listenings DESC;
