@@ -29,7 +29,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Biggest Listeners of the week",
+      "name": "Biggest Listeners of the Week",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -360,14 +360,14 @@
   },
   "owner": "admin",
   "listed": false,
-  "name": "Biggest Listeners of the week on biggest_listeners_week",
+  "name": "Biggest Listeners of the Week on biggest_listeners_week",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379613462,
+    "lastModifiedOn": 1701379618487,
     "extendedProperties": {}
   },
   "creationTag": {
