@@ -2,6 +2,6 @@
 SELECT
     usr,
     artist,
-    COUNT(*) AS listened_track
+    COUNT(*) AS listened_tracks
 FROM listenings
 GROUP BY usr, artist
