@@ -7,5 +7,4 @@ SELECT
     COUNT(*) AS listenings
 FROM listenings
 GROUP BY year, week, track, artist
-ORDER BY listenings DESC
-LIMIT 1;
+ORDER BY year, week, listenings DESC
