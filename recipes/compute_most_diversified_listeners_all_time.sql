@@ -1,8 +1,9 @@
 -- Ranking of 10 Most Diversified Listeners All Time
 SELECT
-    usr,
-    COUNT(DISTINCT artist) AS unique_artists_count
+    usr as listener,
+    COUNT(DISTINCT artist) AS listened_artists
 FROM listenings
-GROUP BY usr
-ORDER BY unique_artists_count DESC
-LIMIT 1;
+WHERE artist IS NOT NULL
+GROUP BY listener
+ORDER BY listened_artists DESC
+LIMIT 10;
