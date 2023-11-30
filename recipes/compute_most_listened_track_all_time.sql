@@ -4,5 +4,5 @@ SELECT
     COUNT(*) AS listenings
 FROM listenings
 GROUP BY track
-ORDER BY result_value DESC
+ORDER BY listenings DESC
 LIMIT 1;
