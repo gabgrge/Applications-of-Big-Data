@@ -37,14 +37,14 @@
   ],
   "owner": "admin",
   "listed": true,
-  "name": "Applications of Big Data\u0027s default dashboard",
+  "name": "KPI Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701378761380,
+    "lastModifiedOn": 1701378799447,
     "extendedProperties": {}
   },
   "creationTag": {
