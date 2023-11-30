@@ -3,10 +3,6 @@
   "color": "#F9BE40",
   "items": [
     {
-      "objectId": "compute_kpi",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "compute_listened_tracks_by_user",
       "objectType": "RECIPE"
     },
