@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701375871709,
+    "lastModifiedOn": 1701375893129,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -52,7 +52,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
-    "table": "${projectKey}_biggest_listeners_all_time",
+    "table": "biggest_listeners_all_time",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
