@@ -73,6 +73,10 @@
     {
       "objectId": "compute_most_listened_artist_week",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "most_diversified_listeners_all_time",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
