@@ -18,5 +18,5 @@ SELECT
     artist,
     listenings
 FROM ranked_albums
-WHERE album_rank == 1
+WHERE album_rank = 1
 ORDER BY year, week, listenings DESC;
