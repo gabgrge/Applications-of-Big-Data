@@ -10,7 +10,7 @@
               "top": 0,
               "left": 0,
               "width": 5,
-              "height": 4
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -36,7 +36,7 @@
               "top": 0,
               "left": 5,
               "width": 5,
-              "height": 4
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -55,6 +55,31 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 10,
+              "width": 2,
+              "height": 2
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "p8NiIqE",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -67,11 +92,11 @@
   "name": "KPI Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379349693,
+    "lastModifiedOn": 1701379492726,
     "extendedProperties": {}
   },
   "creationTag": {
