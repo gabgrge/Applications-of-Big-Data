@@ -49,24 +49,28 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:64602"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Number of artists listened, descending"
+              "label": "Number of artists listened, descending",
+              "$$hashKey": "object:64603"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Number of artists listened, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:64604"
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Number of artists listened, descending"
+            "label": "Number of artists listened, descending",
+            "$$hashKey": "object:64603"
           },
           "digitGrouping": "DEFAULT",
           "displayLabel": "Listener"
@@ -141,6 +145,7 @@
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "Listener",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -163,6 +168,7 @@
       "yAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "Number of artists listened",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -170,8 +176,8 @@
         },
         "axisValuesFormatting": {
           "numberFormatting": {
-            "multiplier": "Auto",
-            "digitGrouping": "DEFAULT",
+            "multiplier": "Thousands",
+            "digitGrouping": "SI",
             "prefix": "",
             "suffix": ""
           },
@@ -313,7 +319,7 @@
         }
       },
       "useLiveProcessingIfAvailable": true,
-      "legendPlacement": "OUTER_RIGHT",
+      "legendPlacement": "SIDEBAR",
       "legendFormatting": {
         "fontSize": 11,
         "fontColor": "#333",
@@ -357,11 +363,11 @@
   "name": "Avg of listened_artists by listener on most_diversified_listeners_all_time",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701378044567,
+    "lastModifiedOn": 1701378245484,
     "extendedProperties": {}
   },
   "creationTag": {
