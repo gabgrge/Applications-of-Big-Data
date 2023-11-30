@@ -1,7 +1,16 @@
 {
   "name": "Data Processing",
   "color": "#C82423",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_cleaned_data",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "cleaned_data",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
