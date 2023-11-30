@@ -9,8 +9,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 5,
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -24,6 +24,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Number of artists listened by listener",
             "insightId": "L4SKrfb",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -39,11 +40,11 @@
   "name": "Applications of Big Data\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701377784374,
+    "lastModifiedOn": 1701378650910,
     "extendedProperties": {}
   },
   "creationTag": {
