@@ -24,7 +24,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Most Diversified Listeners",
+            "title": "Most Diversified Listeners of All Time",
             "insightId": "L4SKrfb",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -35,8 +35,8 @@
             "box": {
               "top": 0,
               "left": 5,
-              "width": 2,
-              "height": 2
+              "width": 5,
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -66,11 +66,11 @@
   "name": "KPI Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701378974974,
+    "lastModifiedOn": 1701379269398,
     "extendedProperties": {}
   },
   "creationTag": {
