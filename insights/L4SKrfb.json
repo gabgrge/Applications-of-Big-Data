@@ -266,7 +266,7 @@
       "animationRepeat": true,
       "colorOptions": {
         "singleColor": "#2678B1",
-        "transparency": 0.7,
+        "transparency": 0.8,
         "colorPalette": "default",
         "ccScaleMode": "NORMAL",
         "customPalette": {
@@ -385,11 +385,11 @@
   "name": "Most Diversified Listeners All Time on most_diversified_listeners_all_time",
   "dashboardCreationId": "ovqod39",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379230963,
+    "lastModifiedOn": 1701379234033,
     "extendedProperties": {}
   },
   "creationTag": {
