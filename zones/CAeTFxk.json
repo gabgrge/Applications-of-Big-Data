@@ -7,10 +7,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "kpi",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "listened_tracks_by_user",
       "objectType": "DATASET"
     },
