@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701358024902,
+    "lastModifiedOn": 1701360514017,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,7 +62,10 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"kpi_name","type":"string","originalType":"text"},
+      {"name":"result_value","type":"double","originalType":"numeric"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
