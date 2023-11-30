@@ -19,6 +19,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "biggest_listeners_all_time",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -213,11 +222,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 26,
+    "versionNumber": 27,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701377784194,
+    "lastModifiedOn": 1701378974776,
     "extendedProperties": {}
   },
   "creationTag": {
