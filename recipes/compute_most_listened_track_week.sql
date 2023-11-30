@@ -1,4 +1,4 @@
--- Most Listened Track and Album for Each Week
+-- Most Listened Track for Each Week
 
 WITH ranked_listenings AS (
     SELECT
