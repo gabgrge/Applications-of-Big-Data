@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701376749023,
+    "lastModifiedOn": 1701376805472,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,7 +62,12 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"year","type":"double","originalType":"numeric"},
+      {"name":"week","type":"double","originalType":"numeric"},
+      {"name":"artist","type":"string","originalType":"text"},
+      {"name":"listenings","type":"bigint","originalType":"int8"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
