@@ -1,4 +1,4 @@
--- Most Listened Track All Time
+-- Most Listened Album All Time
 SELECT
     album,
     artist,
