@@ -67,7 +67,9 @@
       "year": 134,
       "month": 134,
       "day": 134,
-      "is_artist_unknown": 143
+      "is_artist_unknown": 143,
+      "index": 100,
+      "usr": 106
     },
     "columnUseScientificNotationByName": {},
     "coloring": {
