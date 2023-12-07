@@ -22,7 +22,7 @@ extracted_data_df.loc[mask, "datetime"] = np.nan
 extracted_data_df["is_artist_unknown"] = extracted_data_df["artist"].apply(is_artist_unknown)
 
 # Remove unknown artists from "artist"
-extracted_data_df.loc[extracted_data_df["artist"] == "<Unknown>", "artist"] = np.nan
+extracted_data_df.loc[extracted_data_df["artist"].isin["<Unknown>", "[unknown]"], "artist"] = np.nan
 
 # Sort rows
 extracted_data_df.sort_values(by=["usr", "datetime"], ascending=[True, False], ignore_index=True, inplace=True)
