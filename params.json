@@ -231,11 +231,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 29,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1701379492595,
+    "lastModifiedOn": 1702037938017,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -250,27 +250,6 @@
   "tags": [],
   "customFields": {},
   "checklists": {
-    "checklists": [
-      {
-        "title": "To do",
-        "createdOn": 0,
-        "items": [
-          {
-            "done": false,
-            "text": "Check for multi-artists tracks",
-            "createdOn": 1700559493144,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
-            "done": true,
-            "text": "Connect to a SQL Database",
-            "createdOn": 1700573034337,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          }
-        ]
-      }
-    ]
+    "checklists": []
   }
 }
